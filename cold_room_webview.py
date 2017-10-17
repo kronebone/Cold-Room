@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 from openpyxl import load_workbook
-from os import popen
 
 app = Flask(__name__)
 
