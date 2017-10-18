@@ -105,7 +105,7 @@ class Cold_room:
         for contact in contact_list:
             client.messages.create(
                 to=contact,
-                from_='+14134241565',
+                from_='',
                 body="Server room is over 80F")
         text_sent_time_string = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
         text_sent_time = datetime.datetime.strptime(text_sent_time_string, '%Y-%m-%d %H:%M')
