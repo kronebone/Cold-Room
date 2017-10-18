@@ -101,7 +101,7 @@ class Cold_room:
         employee1_phone = ''
         employee2_phone = ''
         employee3_phone = ''
-        contact_list = [employee1, employee2, employee3]
+        contact_list = [employee1_phone, employee2_phone, employee3_phone]
         for contact in contact_list:
             client.messages.create(
                 to=contact,
