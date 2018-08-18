@@ -1,7 +1,9 @@
 # Cold-Room
-Uses raspberry pi sensehat, for use in climate controlled server room.
+Uses raspberry pi sensehat and flask. For use in a small climate controlled server room.
 
-Server room overheated, this is meant to send a text alert using Twilio if temperature goes up too high. 
-Utilizes the sensors and leds from the sensehat. 
+-Displays scrolling temp every minute, with color to indicate temp range.
+-Simple web based stats using flask
+-Text alert using twilio if temp reaches certain level
+-Work in progress
 
-10/2017 Basic webview added, webview still WIP
+
