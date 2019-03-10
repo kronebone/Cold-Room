@@ -7,6 +7,6 @@ Uses raspberry pi sensehat and flask. For use in a small climate controlled serv
 
 - Text alert using twilio if temp reaches certain level
 
-- Work in progress
+- Web view is a work in progress and currently needs to be started separately from the main script
 
 
